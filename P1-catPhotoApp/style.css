@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(19, 173, 173);
+    align-items: center;
+    justify-content: center;
+    display:grid;
+    gap: 10px;
+}
+.catphotoapp{
+    color: rgb(130, 1, 1);
+    font-size: 44px;
+    margin: 8px;
+    padding: 10px;
+
+}
+.section1{
+    margin: 1px;
+    padding: 10px;
+    background-color: brown;
+    /* width: 80%; */
+    width: 500px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgb(65, 169, 169);
+}
+img{
+    margin-left: 150px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.section2{
+    margin: 1px;
+    padding: 10px;
+    background-color: brown;
+    /* width: 80%; */
+    width: 500px;
+}
+.section2 ol,ul{
+    list-style: none;
+}
+.box2{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgb(65, 169, 169);
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgb(65, 169, 169);
+    align-items: center;
+    justify-content: center;
+}
+figcaption{
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.section3{
+    margin: 1px;
+    padding: 10px;
+    background-color: brown;
+    /* width: 80%; */
+    width: 500px;
+}
+.catphotoapp1{
+    color: rgb(50, 214, 240);
+    font-size: 34px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 150px;
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.fieldset1{
+    padding: 10px;
+    gap: 10px;
+}
+input{
+    background-color: rgb(102, 255, 0);
+    height: 25px;
+    width: 80%;
+    color: black;
+    font-size: 23px;
+    margin-left: 6px;
+}
+button{
+    height: 25px;
+    width: 65px;
+    font-size: 20px;
+}
